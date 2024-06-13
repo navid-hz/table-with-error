@@ -10,7 +10,7 @@ const Table = ({ data }) => {
         return <h1>Something went wrong</h1>;
     }
 
-    if (!data || data.length) {
+    if (!data.length) {
         return <h3>No Data</h3>
     }
 
