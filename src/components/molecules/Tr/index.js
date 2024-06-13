@@ -1,3 +1,3 @@
-import Tr from "./Tr";
-export default Tr;
+import TRow from "./Tr";
+export default TRow;
 

@@ -3,7 +3,7 @@ import TdCell from "../../atoms/TdCell";
 import ThCell from "../../atoms/ThCell";
 import { Tr } from './Tr.styles';
 
-const Tr = ({ columns, row }) => {
+const TRow = ({ columns, row }) => {
     return (
         <Tr>
             {row
@@ -17,4 +17,4 @@ const Tr = ({ columns, row }) => {
     );
 }
 
-export default Tr;
+export default TRow;
